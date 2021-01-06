@@ -1,0 +1,31 @@
+.container__section{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.question{
+    width: 200px;
+    position: relative;
+}
+.question__image{
+    z-index: 10;
+    top: 30px;
+    left: 150px;
+    width: 200px;
+    position: absolute;
+}
+.question__image2{
+    z-index: 10;
+    top: 30px;
+    left: 550px;
+    width: 200px;
+    position: absolute;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .container__section{
+        display: none;
+    }
+}

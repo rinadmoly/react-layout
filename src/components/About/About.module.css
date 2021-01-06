@@ -1,0 +1,27 @@
+.title__about{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 61px;
+    text-align: center;
+    color: #0088A2;
+}
+.about{
+    margin-bottom: 50px;
+}
+.video__about{
+    /* width: 1400px; */
+    height: 680px;
+    margin-left: 6%;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .title__about{
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .video__about{
+        width: 330px;
+        height: 196px;
+    }
+}
